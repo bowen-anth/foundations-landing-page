@@ -41,7 +41,9 @@ body {
     font-size: 2.25rem;
     font-weight: 900;
     color: #1F2937;
-    margin: 1.25rem auto;
+    margin: auto;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
 }
 
 .section-one-signup-btn,
@@ -59,6 +61,11 @@ body {
 
 .section-one-signup-btn {
     color: white;
+}
+
+.section-four-signup-btn {
+    color: white;
+    border: 2px solid white;
 }
 
 .section-one-left {
@@ -114,7 +121,7 @@ ul {
 }
 
 .section-two {
-    padding: 0 2rem;
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
 }
@@ -127,6 +134,7 @@ ul {
 
 .section-two-card {
     width: 200px;
+    padding: 0rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,6 +152,8 @@ ul {
 
 .section-three {
     background-color: #E5E7EB;
+    margin: auto;
+    padding: 6rem 12rem;
 }
 
 .section-three-quote {
@@ -151,6 +161,34 @@ ul {
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
+}
+
+.section-three-author {
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    font-weight: bold;
+}
+
+.section-four {
+    padding: 4rem;
+}
+
+.section-four-sub-container {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 2rem 4rem;
+    border-radius: 8px;
+}
+
+.call-to-action {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
 }
 
 .footer {
